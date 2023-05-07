@@ -317,8 +317,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(10.0),
-                                              child: Image.network(
-                                                rowCanaisRecord.logo!,
+                                              child: Image.asset(
+                                                'assets/images/juo14_600',
                                                 width: MediaQuery.of(context)
                                                         .size
                                                         .width *
